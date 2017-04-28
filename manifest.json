@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Univilla",
+  "version": "0.1.0",
+  "description": "IM MR MEESEKS LOOK AT ME!",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["http://univille.edu.br/*", "http://www.univille.edu.br/*"]
+  }]
+ 
+}
